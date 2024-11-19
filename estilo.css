@@ -1,0 +1,224 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+header{
+    background-color: hsla(267, 100%, 87%, 0.98);
+    color: rgb(14, 13, 13);
+    font-family: Georgia, 'Times New Roman', Times, serif
+
+}
+
+.home{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: hsla(267, 66%, 91%, 0.98);
+    color: rgb(0, 0, 0);
+    text-align: center;
+    margin-top: 10px;
+}
+.logo{
+    width: 100px;
+    border:im
+}
+
+.header-principal{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: Georgia, 'Times New Roman', Times, serif
+}
+.menu{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.menu li{
+    display: inline;
+    margin-left: 20px;
+}
+
+.menu a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+
+}
+
+.Img-a{
+    border-radius: 50%;
+    width: 300px;
+    height: auto;
+    border: 4px ;
+    margin-top: 20px;
+}
+
+button{
+    justify-content: center;
+    gap: 100px;
+    margin-top: 40px;
+    color: black;
+}
+
+.proy{
+    background-color: rgb(255, 255, 255);
+}
+
+.container-padre{
+    display: flex;
+    justify-content: center;
+    border: 0px black;
+}
+
+.bt1{
+    background-color:hwb(302 80% 0%);
+    border-radius: 5px;
+    border: 5 color;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 18px;
+    gap: 40;
+    margin-top: 40 px;
+    justify-content: center;
+    margin-left: 50PX;
+}
+.img_proy{
+    height: auto;
+    width: 100%;
+    text-align: center;
+}
+
+
+.bt2{
+    background-color:hwb(302 80% 0%) ;
+    border-radius: 5px;
+    border: 5 black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 18px;
+    gap: 40;
+    margin-top: 40 px;
+    justify-content: center;
+    margin-left: 10PX;
+}
+
+.but4{
+    background-color:hwb(302 80% 0%) ;
+    border:5 black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: 18px;
+
+}
+
+/* Box Model */
+/*Aplicado en container hijo*/
+/*Con box-sizing: border-box, el ancho total de 
+.boxse mantiene en 200px, ya que el padding 
+y el borde se incluyen dentro del tamaño especificado*/
+
+.container_hijo{
+    width: 550px;          
+    padding: 20px;          
+    border: 3px solid rgb(0, 0, 0);
+    margin: 15px;           
+    background-color:hsla(267, 66%, 91%, 0.98);
+    box-sizing: border-box;
+}
+
+h1{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+h2{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif
+}
+p{
+    text-align: center;
+}
+
+h3{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 35px;
+    display: flex;
+}
+
+.texto{
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 18px;
+    justify-content: center;
+}
+
+text{
+    text-align: left
+}
+
+.footer{
+    background-color: hsla(267, 100%, 87%, 0.98);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 18px;
+    justify-content: right;
+}
+
+.clas_food{
+    text-align: left;
+}
+
+
+form{
+    display: flex;
+    
+}
+
+.but3{
+    justify-content: right;
+}
+
+.but3:hover{
+    background-color: hsla(267, 100%, 87%, 0.98); 
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+    gap: 10px; 
+}
+
+.redes-sociales{
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+    
+}
+
+.formulario {
+    display: flex;
+    align-items: center;
+    gap: 5px;        
+    margin-top: 10px; 
+}
+
+.formulario input {
+    width: 200px;
+    padding: 10px;
+    border: none;
+    border-bottom: 2px solid hsla(267, 32%, 45%, 0.98);
+    background: hwb(302 80% 0%);
+    color: black;
+    text-align: center;
+}
+
+.formulario button {
+    background-color: hsla(267, 51%, 67%, 0.98);
+    border-bottom: 7px solid hsla(267, 48%, 39%, 0.98) ;
+    color: black;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
