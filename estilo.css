@@ -176,8 +176,8 @@ form{
     justify-content: right;
 }
 
-.but3:hover{
-    background-color: hsla(267, 100%, 87%, 0.98); 
+.button:hover{
+    background-color: hsla(300, 28%, 27%, 0.98); 
 }
 
 .footer {
